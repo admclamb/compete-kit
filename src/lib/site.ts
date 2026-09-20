@@ -1,7 +1,7 @@
 export const siteName = "CompeteKit";
 
 export const siteTagline =
-  "Compete against other developers in fast-paced coding challenges";
+  "See exactly where your competitors are beating you online";
 
 export const siteDescription =
-  "CompeteKit is an online competitive coding platform for code battles. Battle other developers head-to-head or solo, get instant results, and track your progress.";
+  "CompeteKit compares your SEO, backlinks, and social presence against your competitors so you know exactly what to fix to win online.";

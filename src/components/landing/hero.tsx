@@ -15,17 +15,17 @@ export default function Hero() {
           Alpha Release
         </span>
         <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold max-w-[25ch]">
-          Stop Coding Alone
+          Know Why They&apos;re Winning Online
         </h1>
         <p className="text-muted-foreground max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto">
-          Turn practicing data structures and algorithms into a battle. Go
-          head-to-head with other developers, race to solve coding challenges,
-          and climb the ranks to prove your skill.
+          CompeteKit compares your SEO, backlinks, and social presence
+          against your competitors, so you can see exactly what they&apos;re
+          doing better and fix it before they pull further ahead.
         </p>
         <ul className="flex items-center gap-3">
           <li>
             <Button asChild size="lg" className="w-40">
-              <Link href="/sign-up">Play Now</Link>
+              <Link href="/sign-up">Get Started</Link>
             </Button>
           </li>
         </ul>

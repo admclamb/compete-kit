@@ -24,8 +24,8 @@ import { ModeToggle } from "~/components/mode-toggle";
 
 const defaultRoutes = [
   { name: "Home", href: "/" },
-  { name: "Problems", href: "/" },
-  { name: "Games", href: "/" },
+  { name: "Competitors", href: "/" },
+  { name: "Reports", href: "/" },
   { name: "Blog", href: "/" },
 ];
 
@@ -107,10 +107,10 @@ export default function Navbar() {
                   <Show when="signed-out">
                     <Card className="rounded">
                       <CardHeader>
-                        <CardTitle>Join the CompeteKit community</CardTitle>
+                        <CardTitle>See where you stand</CardTitle>
                         <CardDescription>
-                          Sign up to track progress, solve problems, and
-                          compete.
+                          Sign up to benchmark your SEO, backlinks, and social
+                          presence against your competitors.
                         </CardDescription>
                       </CardHeader>
                       <CardContent className="grid grid-cols-2 gap-3">

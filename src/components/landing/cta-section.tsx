@@ -11,16 +11,19 @@ export default function CtaSection({
 }: Readonly<CtaSectionProps> = {}) {
   const content = (
     <>
-      <h2 className="text-2xl md:text-3xl font-bold">Ready to compete?</h2>
+      <h2 className="text-2xl md:text-3xl font-bold">
+        Ready to see where you stand?
+      </h2>
       <p className="text-muted-foreground max-w-md">
-        Create a free account and jump into your first game in minutes.
+        Create a free account and run your first competitor comparison in
+        minutes.
       </p>
       <div className="flex items-center gap-3">
         <Button asChild size="lg">
           <Link href="/sign-up">Get Started Free</Link>
         </Button>
         <Button asChild size="lg" variant="outline">
-          <Link href="/">Browse Problems</Link>
+          <Link href="/">See a Sample Report</Link>
         </Button>
       </div>
     </>

@@ -2,8 +2,8 @@ import Link from "next/link";
 import Logo from "~/components/logo";
 
 const platformLinks = [
-  { name: "Problems", href: "/" },
-  { name: "Games", href: "/" },
+  { name: "Competitors", href: "/" },
+  { name: "Reports", href: "/" },
   { name: "Dashboard", href: "/" },
 ];
 
@@ -20,8 +20,8 @@ export default function Footer() {
         <div className="col-span-2 flex flex-col gap-3">
           <Logo />
           <p className="text-muted-foreground max-w-xs text-sm">
-            CompeteKit is an online competitive coding platform. Practice
-            through competition.
+            CompeteKit compares your SEO, backlinks, and social presence
+            against your competitors so you know what to fix.
           </p>
         </div>
         <div className="flex flex-col gap-3">
@@ -74,7 +74,7 @@ export default function Footer() {
       <div className="relative">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} CompeteKit. Practice through
+            &copy; {new Date().getFullYear()} CompeteKit. Know your
             competition.
           </p>
         </div>

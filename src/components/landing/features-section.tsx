@@ -5,40 +5,43 @@ export default function FeaturesSection() {
     <section className="border-t py-16">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col gap-2 text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold">Built to compete</h2>
+          <h2 className="text-2xl md:text-3xl font-bold">
+            Know exactly where you stand
+          </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Everything you need to compete and improve your coding skills.
+            Everything you need to benchmark your online presence against the
+            competitors actually taking your customers.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <WobbleCard containerClassName="lg:col-span-2 bg-pink-600 dark:bg-pink-800 min-h-[16rem]">
             <div className="max-w-sm">
               <h3 className="text-left text-balance text-xl md:text-2xl font-semibold text-white">
-                Leaderboards
+                SEO &amp; backlink comparison
               </h3>
               <p className="mt-3 text-left text-base text-neutral-300">
-                Every match is ranked and judged instantly, so you always know
-                where you stand against other developers.
+                See how your search rankings, keywords, and backlink profile
+                stack up against each competitor, side by side.
               </p>
             </div>
           </WobbleCard>
           <WobbleCard containerClassName="bg-indigo-600 dark:bg-indigo-900 min-h-[16rem]">
             <h3 className="text-left text-balance text-xl md:text-2xl font-semibold text-white">
-              Multiple languages
+              Social &amp; brand visibility
             </h3>
             <p className="mt-3 text-left text-base text-neutral-300">
-              Solve problems in the programming language you already know, and
-              rank your favorites in your profile.
+              Track follower growth, engagement, and mentions to see who is
+              building more brand awareness than you.
             </p>
           </WobbleCard>
           <WobbleCard containerClassName="lg:col-span-3 bg-blue-600 dark:bg-blue-900 min-h-[16rem]">
             <div className="max-w-sm">
               <h3 className="text-left text-balance text-xl md:text-2xl font-semibold text-white">
-                Competitive games
+                Actionable gap reports
               </h3>
               <p className="mt-3 text-left text-base text-neutral-300">
-                Battle head-to-head, join a free-for-all lobby, or race solo
-                against the clock.
+                Get a ranked list of what&apos;s actually costing you ground —
+                and what to fix first to close the gap.
               </p>
             </div>
           </WobbleCard>

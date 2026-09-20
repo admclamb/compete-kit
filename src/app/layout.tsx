@@ -10,7 +10,7 @@ import { siteDescription, siteName } from "~/lib/site";
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteName} - Competitive Coding Platform`,
+    default: `${siteName} - Competitor Intelligence for Online Growth`,
     template: `%s | ${siteName}`,
   },
   description: siteDescription,

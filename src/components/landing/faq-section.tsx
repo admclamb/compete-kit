@@ -9,22 +9,22 @@ const faqs = [
   {
     question: "Is CompeteKit free to use?",
     answer:
-      "Yes. You can create a free account, solve problems, and compete in games without paying anything.",
+      "Yes. You can create a free account and run a comparison against your competitors without paying anything.",
   },
   {
-    question: "What programming languages are supported?",
+    question: "What data does CompeteKit compare?",
     answer:
-      "We currently support 3 languages: Python, JavaScript, and SQLite. We plan to add many more languages in the future. If you have a language you'd like to see supported, please let us know.",
+      "We benchmark SEO performance (rankings and keywords), backlink profiles, and social presence (followers, engagement, and mentions) between you and the competitors you track.",
   },
   {
-    question: "How are matches judged?",
+    question: "How do you decide who my competitors are?",
     answer:
-      "Submissions are judged instantly against a set of test cases. You solve as many problems as you can in the time limit, and the player with the most points wins.",
+      "You add the competitors you want to track directly, or let us suggest likely ones based on your industry and the keywords you already rank for.",
   },
   {
-    question: "What game modes are available?",
+    question: "Can I track more than one competitor?",
     answer:
-      "You can compete head-to-head, join a free-for-all lobby, or race solo against the clock.",
+      "Yes. Track as many competitors as you want and compare them side by side, or view a single combined gap report across all of them.",
   },
   {
     question: "CompeteKit is in alpha, what does that mean?",
